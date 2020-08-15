@@ -24,7 +24,7 @@ app.put("/usuario/:id", function (req, res) {
 });
 
 app.delete("/usuario", function (req, res) {
-  res.json("post usuario");
+  res.json("delete usuario");
 });
 
 app.listen(process.env.PORT, () => {
